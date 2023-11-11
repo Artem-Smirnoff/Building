@@ -483,6 +483,133 @@
   }
 }
 
+.subscribe {
+  padding-top: 120px;
+  padding-bottom: 112px;
+  &__container {
+    background-color: #19BCE4;
+    border-radius: 24px;
+    padding: 48px 10px 52px 10px;
+  }
+
+  &__title {
+    font-size: 40px;
+    font-weight: 700;
+    color: #FFFFFF;
+    text-align: center;
+    margin-bottom: 40px;
+  }
+
+  &__box {
+    max-width: 720px;
+    margin: 0 auto;
+    position: relative;
+  }
+
+  &__input {
+    max-width: 720px;
+    width: 100%;
+    border-radius: 6px;
+    padding: 24px;
+    padding-right: 120px;
+    border: none;
+  }
+
+  &__input::placeholder {
+    font-family: Rubik;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    color: #555555;
+  }
+
+  &__btn {
+    position: absolute;
+    right: 8px;
+    top: 50%;
+    transform: translateY(-50%);
+    border-radius: 6px;
+    border: none;
+    background-color: #19BCE4;
+    color: #FFFFFF;
+    font-size: 18px;
+    line-height: 27px;
+    padding: 10px 22px;
+    cursor: pointer;
+  }
+}
+
+.footer {
+  padding-bottom: 73px;
+  &__list {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+  }
+
+  &__item:first-child {
+    max-width: 329px;
+  }
+
+
+  &__text {
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 27px;
+    margin-bottom: 37px;
+  }
+
+  &__item-title {
+    font-size: 24px;
+    font-weight: 500;
+    line-height: normal;
+    color: #222222;
+    margin-bottom: 24px;
+  }
+
+  &__item-li {
+    font-size: 18px;
+    line-height: 27px;
+    /* 150% */
+  }
+
+  &__item-link {
+    color: #555;
+
+    font-family: Rubik;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 27px;
+    /* 150% */
+  }
+
+  &__item-li:not(:last-child) {
+    margin-bottom: 8px;
+  }
+
+  &__item:last-child {
+    .footer__item-li {
+      padding-left: 24px;
+      background-position: left 0;
+      background-repeat: no-repeat;
+    }
+  }
+
+  &__item-li--number {
+    background-image: url('../images/icons/call.svg');
+  }
+
+  &__item-li--mail {
+    background-image: url('../images/icons/mail.jpg');
+  }
+
+  &__item-li--site {
+    background-image: url('../images/icons/playstore.svg');
+  }
+}
+
 
 //media------------------------------------------------------
 
@@ -492,6 +619,13 @@
       grid-template-columns: repeat(2, 1fr);
       max-width: 782px;
       margin: 0 auto;
+    }
+  }
+
+  .footer {
+    &__item {
+      margin-bottom: 40px;
+      padding: 10px;
     }
   }
 }

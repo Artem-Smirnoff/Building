@@ -13,268 +13,391 @@
 
   <body>
 
-    <header class="header">
-      <div class="container">
-        <nav class="header__nav">
-          <a href="#" class="header__logo logo">
-            <img src="images/icons/logo.svg" alt="logo">
-          </a>
-          <button class="burger">
-            <span></span></button>
-          <ul class="header__menu">
-            <li class="header__menu-item">
-              <a href="#" class="header__menu-link">
+    <main class="main">
+      <header class="header">
+        <div class="container">
+          <nav class="header__nav">
+            <a href="#" class="header__logo logo">
+              <img src="images/icons/logo.svg" alt="logo">
+            </a>
+            <button class="burger">
+              <span></span></button>
+            <ul class="header__menu">
+              <li class="header__menu-item">
+                <a href="#" class="header__menu-link">
                 Home
               </a>
-            </li>
-            <li class="header__menu-item">
-              <a href="#" class="header__menu-link">
+              </li>
+              <li class="header__menu-item">
+                <a href="#" class="header__menu-link">
                 Services
               </a>
-            </li>
-            <li class="header__menu-item">
-              <a href="#" class="header__menu-link">
+              </li>
+              <li class="header__menu-item">
+                <a href="#" class="header__menu-link">
                 About Us
               </a>
-            </li>
-            <li class="header__menu-item">
-              <a href="#" class="header__menu-link">
+              </li>
+              <li class="header__menu-item">
+                <a href="#" class="header__menu-link">
                 Properties
               </a>
-            </li>
-            <li class="header__menu-item">
-              <a href="#" class="header__menu-link">
+              </li>
+              <li class="header__menu-item">
+                <a href="#" class="header__menu-link">
                 Contact
               </a>
-            </li>
-          </ul>
-          <button class="header__btn">Log in</button>
-        </nav>
-      </div>
-    </header>
-
-    <section class="hero">
-      <div class="hero__container container">
-        <div class="hero__inner">
-          <h1 class="hero__title title line-2">Find Your Drem House</h1>
-          <p class="hero__text line-4">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut viverra posuere sem purus enim eleifend habitant arcu, sed.</p>
-          <form action="#" class="hero__form">
-            <div class="select-wrap">
-              <p class="select-wrap__text">Location</p>
-              <select class="hero__form-item hero__form-item--location" name="location" id="location">
-                <option value="california">California</option>
-                <option value="newyork">New York</option>
-                <option value="texas">Texas</option>
-              </select>
-            </div>
-            <div class="select-wrap">
-              <p class="select-wrap__text">Properties</p>
-              <select class="hero__form-item hero__form-item--properties" name="properties" id="properties">
-                <option value="deluxe">Deluxe</option>
-                <option value="luxe">Luxe</option>
-                <option value="standart">Standart</option>
-                <option value="comfort">Comfort</option>
-              </select>
-            </div>
-            <div class="select-wrap">
-              <p class="select-wrap__text">Price</p>
-              <select class="hero__form-item hero__form-item--price" name="price" id="price">
-                <option value="big">$10,000-$120,000</option>
-                <option value="middle">$4,000-$10,000</option>
-                <option value="small">$500-$4,000</option>
-              </select>
-            </div>
-
-            <button class="hero__form-btn line-1" type="submit">Search</button>
-          </form>
+              </li>
+            </ul>
+            <button class="header__btn">Log in</button>
+          </nav>
         </div>
+      </header>
 
-      </div>
-    </section>
-    <section class="about">
-      <div class="container about__container">
-        <div class="about__images">
-          <img src="images/about/big.jpg" alt="bed" class="about__img-big">
-          <img src="images/about/small.jpg" alt="sofa" class="about__img-small">
+      <section class="hero">
+        <div class="hero__container container">
+          <div class="hero__inner">
+            <h1 class="hero__title title line-2">Find Your Drem House</h1>
+            <p class="hero__text line-4">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut viverra posuere sem purus enim eleifend habitant arcu, sed.</p>
+            <form action="#" class="hero__form">
+              <div class="select-wrap">
+                <p class="select-wrap__text">Location</p>
+                <select class="hero__form-item hero__form-item--location" name="location" id="location">
+                  <option value="california">California</option>
+                  <option value="newyork">New York</option>
+                  <option value="texas">Texas</option>
+                </select>
+              </div>
+              <div class="select-wrap">
+                <p class="select-wrap__text">Properties</p>
+                <select class="hero__form-item hero__form-item--properties" name="properties" id="properties">
+                  <option value="deluxe">Deluxe</option>
+                  <option value="luxe">Luxe</option>
+                  <option value="standart">Standart</option>
+                  <option value="comfort">Comfort</option>
+                </select>
+              </div>
+              <div class="select-wrap">
+                <p class="select-wrap__text">Price</p>
+                <select class="hero__form-item hero__form-item--price" name="price" id="price">
+                  <option value="big">$10,000-$120,000</option>
+                  <option value="middle">$4,000-$10,000</option>
+                  <option value="small">$500-$4,000</option>
+                </select>
+              </div>
+
+              <button class="hero__form-btn line-1" type="submit">Search</button>
+            </form>
+          </div>
+
         </div>
-        <div class="about__content">
-          <p class="about__subtitle subtitle">About Us</p>
-          <h2 class="about__title title line-2">We are Specializing in interior Improvments</h2>
-          <p class="about__text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut viverra posuere sem purus enim eleifend habitant arcu, sed.</p>
-          <ul class="about__list">
-            <li class="about__item">
-              <img src="images/icons/support.svg" alt="support" class="about__item-icon">
-              <h4 class="about__item-title">Free Consulatation</h4>
-              <p class="about__item-text">
+      </section>
+      <section class="about">
+        <div class="container about__container">
+          <div class="about__images">
+            <img src="images/about/big.jpg" alt="bed" class="about__img-big">
+            <img src="images/about/small.jpg" alt="sofa" class="about__img-small">
+          </div>
+          <div class="about__content">
+            <p class="about__subtitle subtitle">About Us</p>
+            <h2 class="about__title title line-2">We are Specializing in interior Improvments</h2>
+            <p class="about__text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut viverra posuere sem purus enim eleifend habitant arcu, sed.</p>
+            <ul class="about__list">
+              <li class="about__item">
+                <img src="images/icons/support.svg" alt="support" class="about__item-icon">
+                <h4 class="about__item-title">Free Consulatation</h4>
+                <p class="about__item-text">
                 Lorem ipsum dolor sit amet, conse
                 ctetur adipiscing elit.
               </p>
-            </li>
-            <li class="about__item">
-              <img src="images/icons/team.svg" alt="team" class="about__item-icon">
-              <h4 class="about__item-title">Best Team Members</h4>
-              <p class="about__item-text">
+              </li>
+              <li class="about__item">
+                <img src="images/icons/team.svg" alt="team" class="about__item-icon">
+                <h4 class="about__item-title">Best Team Members</h4>
+                <p class="about__item-text">
                 Lorem ipsum dolor sit amet, conse
                 ctetur adipiscing elit.
               </p>
-            </li>
-          </ul>
-          <a href="#" class="about__btn btn">Explore Now</a>
+              </li>
+            </ul>
+            <a href="#" class="about__btn btn">Explore Now</a>
+          </div>
         </div>
-      </div>
-    </section>
+      </section>
 
-    <section class="choise">
-      <div class="container">
-        <h2 class="choise__title title line-2">
+      <section class="choise">
+        <div class="container">
+          <h2 class="choise__title title line-2">
           What are you looking for?
         </h2>
-        <div class="choise__box">
-          <img src="images/choise/img.jpg" alt="builds" class="choise__img">
-          <ul class="choise__list">
-            <li class="choise__item">
-              <img src="images/icons/family-house.svg" alt="Family House" class="choise__item-icon">
-              <div class="choise__item-descr">
-                <h4 class="choise__item-title">
+          <div class="choise__box">
+            <img src="images/choise/img.jpg" alt="builds" class="choise__img">
+            <ul class="choise__list">
+              <li class="choise__item">
+                <img src="images/icons/family-house.svg" alt="Family House" class="choise__item-icon">
+                <div class="choise__item-descr">
+                  <h4 class="choise__item-title">
                   Family House
                 </h4>
-                <p class="choise__item-text">
+                  <p class="choise__item-text">
                   Lorem ipsum dolor sit amet, consectetur adipiscing elit. In tempor pulvinar at augue vestibulum euismod risus 
                 </p>
-              </div>
-            </li>
-            <li class="choise__item">
-              <img src="images/icons/apartment.svg" alt="Apartment" class="choise__item-icon">
-              <div class="choise__item-descr">
-                <h4 class="choise__item-title">
+                </div>
+              </li>
+              <li class="choise__item">
+                <img src="images/icons/apartment.svg" alt="Apartment" class="choise__item-icon">
+                <div class="choise__item-descr">
+                  <h4 class="choise__item-title">
                   Apartment
                 </h4>
-                <p class="choise__item-text">
+                  <p class="choise__item-text">
                   Lorem ipsum dolor sit amet, consectetur adipiscing elit. In tempor pulvinar at augue vestibulum euismod risus 
                 </p>
-              </div>
-            </li>
-            <li class="choise__item">
-              <img src="images/icons/studio.svg" alt="Studio & Offices" class="choise__item-icon">
-              <div class="choise__item-descr">
-                <h4 class="choise__item-title">
+                </div>
+              </li>
+              <li class="choise__item">
+                <img src="images/icons/studio.svg" alt="Studio & Offices" class="choise__item-icon">
+                <div class="choise__item-descr">
+                  <h4 class="choise__item-title">
                   Studio & Offices
                 </h4>
-                <p class="choise__item-text">
+                  <p class="choise__item-text">
                   Lorem ipsum dolor sit amet, consectetur adipiscing elit. In tempor pulvinar at augue vestibulum euismod risus 
                 </p>
-              </div>
-            </li>
-            <li class="choise__item">
-              <img src="images/icons/villa.svg" alt="Villa & Condo" class="choise__item-icon">
-              <div class="choise__item-descr">
-                <h4 class="choise__item-title">
+                </div>
+              </li>
+              <li class="choise__item">
+                <img src="images/icons/villa.svg" alt="Villa & Condo" class="choise__item-icon">
+                <div class="choise__item-descr">
+                  <h4 class="choise__item-title">
                   Villa & Condo
                 </h4>
-                <p class="choise__item-text">
+                  <p class="choise__item-text">
                   Lorem ipsum dolor sit amet, consectetur adipiscing elit. In tempor pulvinar at augue vestibulum euismod risus 
                 </p>
-              </div>
+                </div>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </section>
+
+      <section class="popular">
+        <div class="container">
+          <h2 class="popular__title title line-2">Most Popular Places</h2>
+          <p class="popular__subtitle subtitle">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+          <ul class="popular__list">
+            <li class="popular__item">
+              <img src="images/popular/1.jpg" alt="Bangladesh" class="popular__img">
+              <p class="popular__text">Bangladesh <br>
+                <span>50 Properties</span></p>
+            </li>
+            <li class="popular__item">
+              <img src="images/popular/2.jpg" alt="Japan" class="popular__img">
+              <p class="popular__text">Japan <br>
+                <span>50 Properties</span></p>
+            </li>
+            <li class="popular__item">
+              <img src="images/popular/3.jpg" alt="Malaysia" class="popular__img">
+              <a class="popular__text">Malaysia <br>
+                <span>50 Properties</span></a>
+            </li>
+            <li class="popular__item">
+              <img src="images/popular/4.jpg" alt="London" class="popular__img">
+              <a class="popular__text">London <br>
+                <span>50 Properties</span></a>
+            </li>
+            <li class="popular__item">
+              <img src="images/popular/5.jpg" alt="India" class="popular__img">
+              <a class="popular__text">India <br>
+                <span>50 Properties</span></a>
             </li>
           </ul>
         </div>
-      </div>
-    </section>
+      </section>
 
-    <section class="popular">
-      <div class="container">
-        <h2 class="popular__title title line-2">Most Popular Places</h2>
-        <p class="popular__subtitle subtitle">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
-        <ul class="popular__list">
-          <li class="popular__item">
-            <img src="images/popular/1.jpg" alt="Bangladesh" class="popular__img">
-            <p class="popular__text">Bangladesh <br>
-              <span>50 Properties</span></p>
-          </li>
-          <li class="popular__item">
-            <img src="images/popular/2.jpg" alt="Japan" class="popular__img">
-            <p class="popular__text">Japan <br>
-              <span>50 Properties</span></p>
-          </li>
-          <li class="popular__item">
-            <img src="images/popular/3.jpg" alt="Malaysia" class="popular__img">
-            <a class="popular__text">Malaysia <br>
-              <span>50 Properties</span></a>
-          </li>
-          <li class="popular__item">
-            <img src="images/popular/4.jpg" alt="London" class="popular__img">
-            <a class="popular__text">London <br>
-              <span>50 Properties</span></a>
-          </li>
-          <li class="popular__item">
-            <img src="images/popular/5.jpg" alt="India" class="popular__img">
-            <a class="popular__text">India <br>
-              <span>50 Properties</span></a>
-          </li>
-        </ul>
-      </div>
-    </section>
-
-    <section class="clients">
-      <div class="container">
-        <div class="clients__box">
-          <div class="clients__content">
-            <h2 class="clients__title title line-2">Who Choose Us?</h2>
-            <p class="clients__text">
+      <section class="clients">
+        <div class="container">
+          <div class="clients__box">
+            <div class="clients__content">
+              <h2 class="clients__title title line-2">Who Choose Us?</h2>
+              <p class="clients__text">
               Lorem ipsum dolor sit amet, consectetur adipiscing elit. Odio laoreet sit neque sagittis. 
               Gravida viverra at auctor sed aliquam. Sed magna eros lectus amet, viverra. Ultrices diam, volutpat sit ut feugiat semper interdum dapibus.
                Et malesuada tempus lacus at ornare gravida ornare nulla dui. 
                Velit tellus elit consectetur dui vel convallis eu in lectus. Vitae id est, suspendisse suspendisse.</p>
-            <a href="" class="clients__btn btn">Read more</a>
+              <a href="" class="clients__btn btn">Read more</a>
+            </div>
+            <img src="images/clients/people.png" alt="people" class="clients__img">
           </div>
-          <img src="images/clients/people.png" alt="people" class="clients__img">
         </div>
-      </div>
-    </section>
+      </section>
 
-    <section class="reviews">
+      <section class="reviews">
+        <div class="container">
+          <h2 class="reviews__title title line-2">What People Say</h2>
+          <p class="reviews__subtitle subtitle">Lorem ipsum dolor sit amet, consectetur </p>
+          <ul class="reviews__box">
+            <li class="reviews__item">
+              <img src="images/clients/1.jpg" alt="Williamsons" class="reviews__img">
+              <p class="reviews__name">Williamsons</p>
+              <div class="rating-star" data-rateyo-rating="3"></div>
+              <p class="reviews__text">
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Dui posuere nulla id feugiat morbi dictum.
+               Nec enim mauris velit integer.
+               Vitae varius interdum enim eget elementum. Eu velit tortor proin risus amet habitant.
+            </p>
+            </li>
+            <li class="reviews__item">
+              <img src="images/clients/2.jpg" alt="Farhad Reja" class="reviews__img">
+              <p class="reviews__name">Farhad Reja</p>
+              <div class="rating-star" data-rateyo-rating="4"></div>
+              <p class="reviews__text">
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Dui posuere nulla id feugiat morbi dictum.
+               Nec enim mauris velit integer.
+               Vitae varius interdum enim eget elementum. Eu velit tortor proin risus amet habitant.
+            </p>
+            </li>
+            <li class="reviews__item">
+              <img src="images/clients/3.jpg" alt="Peter sams" class="reviews__img">
+              <p class="reviews__name">Peter sams</p>
+              <div class="rating-star"data-rateyo-rating="5"></div>
+              <p class="reviews__text">
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Dui posuere nulla id feugiat morbi dictum.
+               Nec enim mauris velit integer.
+               Vitae varius interdum enim eget elementum. Eu velit tortor proin risus amet habitant.
+            </p>
+            </li>
+          </ul>
+        </div>
+      </section>
+
+      <section class="subscribe">
+        <div class="container subscribe__container">
+          <h3 class="subscribe__title">For Daily Update Subscribe Now</h3>
+          <div class="subscribe__box">
+            <input class="subscribe__input" type="text" placeholder="Enter Your Mail..">
+            <button class="subscribe__btn" type="submit">Subscribe</button>
+          </div>
+        </div>
+      </section>
+    </main>
+    <footer class="footer">
       <div class="container">
-        <h2 class="reviews__title title line-2">What People Say</h2>
-        <p class="reviews__subtitle subtitle">Lorem ipsum dolor sit amet, consectetur </p>
-        <ul class="reviews__box">
-          <li class="reviews__item">
-            <img src="images/clients/1.jpg" alt="Williamsons" class="reviews__img">
-            <p class="reviews__name">Williamsons</p>
-            <div class="rating-star" data-rateyo-rating="3"></div>
-            <p class="reviews__text">
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Dui posuere nulla id feugiat morbi dictum.
-               Nec enim mauris velit integer.
-               Vitae varius interdum enim eget elementum. Eu velit tortor proin risus amet habitant.
+        <ul class="footer__list">
+          <li class="footer__item">
+            <a href="#" class="header__logo logo">
+              <img src="images/icons/logo.svg" alt="logo">
+            </a>
+            <p class="footer__text">
+              Lorem ipsum dolor sit amet, consectet adipiscing elit. Quam turpis sed ut fam tortor pharetra.
+               Lorem auctor congue pellentesque facilisis diam
             </p>
+            <ul class="footer__social social">
+              <li class="footer__social-item social">
+                <a href="#" class="footer__social-link social__link">
+                  <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path d="M17.5629 1.00458L14.7856 1C11.6655 1 9.64909 3.12509 9.64909 6.41423V8.91055H6.85668C6.61538 8.91055 6.41998 9.1115 6.41998 9.35937V12.9763C6.41998 13.2241 6.61561 13.4249 6.85668 13.4249H9.64909V22.5514C9.64909 22.7993 9.84449 23 10.0858 23H13.7291C13.9704 23 14.1658 22.799 14.1658 22.5514V13.4249H17.4308C17.6721 13.4249 17.8675 13.2241 17.8675 12.9763L17.8688 9.35937C17.8688 9.24036 17.8227 9.12638 17.7409 9.04215C17.6592 8.95793 17.5478 8.91055 17.4319 8.91055H14.1658V6.79439C14.1658 5.77727 14.4017 5.26094 15.6916 5.26094L17.5625 5.26025C17.8035 5.26025 17.9989 5.0593 17.9989 4.81166V1.45317C17.9989 1.20576 17.8038 1.00504 17.5629 1.00458Z" fill="#19BCE4"/>
+                  </svg>
+                </a>
+              </li>
+              <li class="footer__social-item social">
+                <a href="#" class="footer__social-link social__link">
+                  <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path d="M22.5 5.77258C21.7271 6.10051 20.8978 6.32292 20.0264 6.42221C20.9161 5.91205 21.5972 5.10287 21.92 4.14164C21.0854 4.61408 20.1642 4.95713 19.1826 5.14309C18.3966 4.34019 17.2785 3.84009 16.0384 3.84009C13.6593 3.84009 11.7303 5.68715 11.7303 7.96394C11.7303 8.28685 11.7683 8.60223 11.8418 8.90382C8.26201 8.73165 5.08768 7.08941 2.96314 4.59397C2.59176 5.20213 2.38049 5.91077 2.38049 6.66721C2.38049 8.09839 3.14161 9.36117 4.2964 10.1C3.5904 10.0774 2.92639 9.89141 2.34508 9.5823V9.63381C2.34508 11.6317 3.83056 13.299 5.80024 13.6785C5.43936 13.7715 5.05882 13.823 4.66514 13.823C4.38696 13.823 4.11794 13.7966 3.85417 13.7464C4.40267 15.3861 5.99315 16.5785 7.87756 16.6112C6.40388 17.7169 4.54573 18.3741 2.52749 18.3741C2.17976 18.3741 1.83724 18.354 1.5 18.3176C3.40671 19.4899 5.67036 20.1734 8.10327 20.1734C16.028 20.1734 20.3597 13.8884 20.3597 8.43766L20.3453 7.90365C21.1917 7.32561 21.9239 6.59937 22.5 5.77258Z" fill="#19BCE4"/>
+                  </svg>
+                </a>
+              </li>
+              <li class="footer__social-item social">
+                <a href="#" class="footer__social-link social__link">
+                  <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path fill-rule="evenodd" clip-rule="evenodd" d="M2 12C2 7.80863 2 5.71294 3.05041 4.26718C3.38964 3.80026 3.80026 3.38964 4.26718 3.05041C5.71294 2 7.80863 2 12 2C16.1914 2 18.2871 2 19.7328 3.05041C20.1997 3.38964 20.6104 3.80026 20.9496 4.26718C22 5.71294 22 7.80863 22 12C22 16.1914 22 18.2871 20.9496 19.7328C20.6104 20.1997 20.1997 20.6104 19.7328 20.9496C18.2871 22 16.1914 22 12 22C7.80863 22 5.71294 22 4.26718 20.9496C3.80026 20.6104 3.38964 20.1997 3.05041 19.7328C2 18.2871 2 16.1914 2 12ZM12 6.70588C9.07632 6.70588 6.70588 9.07632 6.70588 12C6.70588 14.9237 9.07632 17.2941 12 17.2941C14.9237 17.2941 17.2941 14.9237 17.2941 12C17.2941 9.07632 14.9237 6.70588 12 6.70588ZM12 15.3088C10.1762 15.3088 8.69118 13.8238 8.69118 12C8.69118 10.1749 10.1762 8.69118 12 8.69118C13.8238 8.69118 15.3088 10.1749 15.3088 12C15.3088 13.8238 13.8238 15.3088 12 15.3088ZM18.3966 6.30883C18.3966 6.69844 18.0808 7.01427 17.6912 7.01427C17.3016 7.01427 16.9857 6.69844 16.9857 6.30883C16.9857 5.91923 17.3016 5.60339 17.6912 5.60339C18.0808 5.60339 18.3966 5.91923 18.3966 6.30883Z" fill="#19BCE4"/>
+                  </svg>
+                </a>
+              </li>
+              <li class="footer__social-item social">
+                <a href="#" class="footer__social-link social__link">
+                  <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path d="M21.995 22.0001V21.9993H22V14.6643C22 11.0759 21.2275 8.31177 17.0325 8.31177C15.0158 8.31177 13.6625 9.41844 13.11 10.4676H13.0517V8.64677H9.07416V21.9993H13.2158V15.3876C13.2158 13.6468 13.5458 11.9634 15.7017 11.9634C17.8258 11.9634 17.8575 13.9501 17.8575 15.4993V22.0001H21.995Z" fill="#19BCE4"/>
+                    <path d="M2.32999 8.64746H6.47665V22H2.32999V8.64746Z" fill="#19BCE4"/>
+                    <path d="M4.40167 2C3.07583 2 2 3.07583 2 4.40167C2 5.7275 3.07583 6.82583 4.40167 6.82583C5.7275 6.82583 6.80333 5.7275 6.80333 4.40167C6.8025 3.07583 5.72667 2 4.40167 2V2Z" fill="#19BCE4"/>
+                  </svg>
+                </a>
+              </li>
+            </ul>
           </li>
-          <li class="reviews__item">
-            <img src="images/clients/2.jpg" alt="Farhad Reja" class="reviews__img">
-            <p class="reviews__name">Farhad Reja</p>
-            <div class="rating-star" data-rateyo-rating="4"></div>
-            <p class="reviews__text">
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Dui posuere nulla id feugiat morbi dictum.
-               Nec enim mauris velit integer.
-               Vitae varius interdum enim eget elementum. Eu velit tortor proin risus amet habitant.
-            </p>
+          <li class="footer__item">
+            <p class="footer__item-title">Home</p>
+            <ul class="footer__item-list">
+              <li class="footer__item-li">
+                <a href="" class="footer__item-link">Process</a>
+              </li>
+              <li class="footer__item-li">
+                <a href="" class="footer__item-link">Listing</a>
+              </li>
+              <li class="footer__item-li">
+                <a href="" class="footer__item-link">Popular Property</a>
+              </li>
+              <li class="footer__item-li">
+                <a href="" class="footer__item-link">Out Agents</a>
+              </li>
+              <li class="footer__item-li">
+                <a href="" class="footer__item-link">Testimonial</a>
+              </li>
+            </ul>
           </li>
-          <li class="reviews__item">
-            <img src="images/clients/3.jpg" alt="Peter sams" class="reviews__img">
-            <p class="reviews__name">Peter sams</p>
-            <div class="rating-star"data-rateyo-rating="5"></div>
-            <p class="reviews__text">
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Dui posuere nulla id feugiat morbi dictum.
-               Nec enim mauris velit integer.
-               Vitae varius interdum enim eget elementum. Eu velit tortor proin risus amet habitant.
-            </p>
-          </li>
+          <li class="footer__item">
+            <p class="footer__item-title">Servies</p>
+            <ul class="footer__item-list">
+              <li class="footer__item-li">
+                <a href="" class="footer__item-link">Site map</a>
+              </li>
+              <li class="footer__item-li">
+                <a href="" class="footer__item-link">Property type</a>
+              </li>
+              <li class="footer__item-li">
+                <a href="" class="footer__item-link">Terms and conditions</a>
+              </li>
+              <li class="footer__item-li">
+                <a href="" class="footer__item-link">Privacy policy</a>
+              </li>
+            </ul>
+          <li class="footer__item">
+            <p class="footer__item-title">About</p>
+            <ul class="footer__item-list">
+              <li class="footer__item-li">
+                <a href="" class="footer__item-link">About us</a>
+              </li>
+              <li class="footer__item-li">
+                <a href="" class="footer__item-link">Who choose us?</a>
+              </li>
+              <li class="footer__item-li">
+                <a href="" class="footer__item-link">Events</a>
+              </li>
+              <li class="footer__item-li">
+                <a href="" class="footer__item-link">Blog</a>
+              </li>
+            </ul>
+          <li class="footer__item">
+            <p class="footer__item-title">Contact</p>
+            <ul class="footer__item-list">
+              <li class="footer__item-li footer__item-li--number">
+                <a href="" class="footer__item-link">+888 561 258</a>
+              </li>
+              <li class="footer__item-li footer__item-li--mail">
+                <a href="" class="footer__item-link">webmaile@gmail.com</a>
+              </li>
+              <li class="footer__item-li footer__item-li--site">
+                <a href="" class="footer__item-link">Google play</a>
+              </li>
+            </ul>
         </ul>
-      </div>
-    </section>
 
-    <main class="main"></main>
-    <footer class="footer"></footer>
+      </div>
+    </footer>
 
     <script src="js/main.min.js"></script>
+
   </body>
 
 </html>

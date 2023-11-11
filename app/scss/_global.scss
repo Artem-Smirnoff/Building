@@ -144,3 +144,9 @@ body {
   margin: 0 auto;
   margin-bottom: 16px;
 }
+
+.social {
+  display: flex;
+  justify-content: space-between;
+  max-width: 144px;
+}
